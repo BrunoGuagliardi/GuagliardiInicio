@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1C1C1C;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,body{
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../img/Wallpaper.png);
+}
+
+hr{
+  position: relative;
+  border-color: #4e4a4a;
+}
+
+.center{
+  position: relative;
+  display: block;
+  background-color: #1C1C1C;
+  height: 80px;
+  width: 100%;
+}
+
+.menu{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.logo{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo h1{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo h1 a{
+  color: #05A869;
+  font-size: 35px;
+}
+
+nav{
+  float: right;
+  height: 100%;
+}
+
+nav a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 28px 20px;
+}
+
+nav a:last-child{
+  padding-right: 0;
+}
+
+nav a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: #EFEFEF;
+}
+
+nav a li span{
+  color: #05A869;
+}
+
+aside{
+  float: right;
+  margin-right: -30px;
+  margin-top: -100px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #05A869;
+}
+
+aside img{
+  float: right;
+  margin-right: 200px;
+  margin-top: 120px;
+  height: 460px;
+  width: 460px;
+  border-radius: 50%;
+}
+
+section{
+  background: transparent;
+}
+
+section h2{
+  color:#05A869;
+  font-size: 60px;
+  margin-top: 75px;
+  margin-left: 75px;
+  display: table;
+  animation: slide 4s;
+}
+
+section h3{
+  color: #EFEFEF;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 85px;
+  text-align: justify;
+  width: 630px;
+  display: table;
+  animation: slide 3s;
+}
+
+article a{
+  color: #EFEFEF;
+  display: table;
+  background-color: #05A869;
+  border: 10px solid #05A869;
+  border-radius: 25px;
+  margin-left: 330px;
+  margin-top: 20px;
+  animation: fadein 5s;
+}
+
+article:hover{
+  font-size: 105%;
+}
+
+.linkedin{
+  height: 60px;
+  width: 60px;
+  border-radius: 70%;
+  position: absolute;
+  left: 680px;
+  bottom: 20px;
+}
+
+.github{
+  height: 60px;
+  width: 60px;
+  border-radius: 70%;
+  position: absolute;
+  left: 780px;
+  bottom: 20px;
+}
+
+.instagram{
+  height: 60px;
+  width: 60px;
+  border-radius: 70%;
+  position: absolute;
+  left: 580px;
+  bottom: 20px;
+}
+
+.linkedin:hover{
+  width: 63px;
+  height: 63px;
+}
+
+.github:hover{
+  width: 63px;
+  height: 63px;
+}
+
+.instagram:hover{
+  width: 63px;
+  height: 63px;
+}
+
+@keyframes slide{
+  0% {transform: translateY(-65px)}
+  100% {transform: translateY(0px)}
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes fadein{
+  0% {opacity: 0}
+  65% {opacity: 0}
+  100% {opacity: 1}
+}
+
