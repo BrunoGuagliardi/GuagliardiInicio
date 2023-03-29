@@ -144,15 +144,15 @@ footer{
   background-color: transparent;
 }
 
-.logos a{
-  height: 60px;
-  width: 80px;
-}
-
 .logos img{
   border-radius: 70%;
   height: 60px;
   width: 60px;
+}
+
+.logos a{
+  height: 60px;
+  width: 80px;
 }
 
 .linkedin{
