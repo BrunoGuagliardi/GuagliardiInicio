@@ -156,15 +156,18 @@ footer{
 }
 
 .linkedin{
-  margin-left: 20px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .github{
-  margin-left: 20px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .instagram{
-  margin-left: 20px;
+  position: absolute;
+  bottom: 20px;
 }
 
 @keyframes slide{
